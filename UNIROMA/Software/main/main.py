@@ -10,13 +10,13 @@ from ottimo_flessibilita import threshold_flexibility
 import paho.mqtt.client as mqtt
 from datetime import datetime 
 
-broker= "185.131.248.7"  #Broker address
-port = 1883                         #Broker port
-user = "wisegrid"                    #Connection username
-password = "wisegrid"            #Connection password
-client = mqtt.Client()
-client.username_pw_set(user, password=password)
-client.connect(broker, port, 60)
+# broker=  #Broker address
+# port = 1883                         #Broker port
+# user =                   #Connection username
+# password =            #Connection password
+# client = mqtt.Client()
+# client.username_pw_set(user, password=password)
+# client.connect(broker, port, 60)
 
 attivo_flessibilita=False   # put False if you don't want to do flexibility study
 MAX_TIME=5                # Duration enforced manually
