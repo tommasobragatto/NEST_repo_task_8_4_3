@@ -412,8 +412,6 @@ while True:
         dss.solution_solve()
         dss.circuit_update_storage_t()
 
-
-
     #### LF RESULTS HANDLING #####
         # EXPORT VOLTAGE RESULTS FOR EACH LOAD
         voltage= open(r"result/tensioni_DR.txt", "a")
